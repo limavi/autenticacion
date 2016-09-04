@@ -1,11 +1,11 @@
-[info] Updating {file:/home/lili/Escritorio/proyecto3/taller2/project/}taller2-build...
-[debug] :: resolving dependencies :: default#taller2-build;0.1-SNAPSHOT
+[info] Updating {file:/home/lili/Escritorio/proyecto3/autenticacion/project/}autenticacion-build...
+[debug] :: resolving dependencies :: default#autenticacion-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#sbt-plugin;2.5.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#sbt-plugin;2.5.0 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#sbt-plugin;2.5.0
@@ -1790,9 +1790,9 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.0->com.typesafe.play#sbt-routes-compiler_2.10;2.5.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.0->com.typesafe.play#sbt-routes-compiler_2.10;2.5.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.0->com.typesafe.play#sbt-routes-compiler_2.10;2.5.0 [compile->compile]
@@ -3138,10 +3138,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.0->com.typesafe.play#sbt-routes-compiler_2.10;2.5.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.0->com.typesafe.play#sbt-routes-compiler_2.10;2.5.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.0->com.typesafe.play#sbt-routes-compiler_2.10;2.5.0 [compile->compile]
@@ -4487,12 +4487,12 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.11 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.11 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.11
@@ -5315,11 +5315,11 @@
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.0->com.typesafe.play#sbt-routes-compiler_2.10;2.5.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.0->com.typesafe.play#sbt-routes-compiler_2.10;2.5.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.0->com.typesafe.play#sbt-routes-compiler_2.10;2.5.0 [compile->compile]
@@ -6664,13 +6664,13 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->compile]
@@ -7275,10 +7275,10 @@
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.0->com.typesafe.play#sbt-routes-compiler_2.10;2.5.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.0->com.typesafe.play#sbt-routes-compiler_2.10;2.5.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.0->com.typesafe.play#sbt-routes-compiler_2.10;2.5.0 [compile->compile]
@@ -8623,13 +8623,13 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.0->com.typesafe.play#sbt-routes-compiler_2.10;2.5.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.0->com.typesafe.play#sbt-routes-compiler_2.10;2.5.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.0->com.typesafe.play#sbt-routes-compiler_2.10;2.5.0 [compile->compile]
@@ -9974,13 +9974,13 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->compile]
@@ -10585,18 +10585,18 @@
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#taller2-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies for default#autenticacion-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->default]
@@ -10614,8 +10614,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#jline;2.10.6 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}
@@ -10628,11 +10628,11 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.6->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master]
-[debug] == resolving dependencies default#taller2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies default#autenticacion-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)]
 [debug] all callers are evicted for org.tukaani#xz;1.4: evicting too
 [debug] all callers are evicted for org.tukaani#xz;1.4: evicting too
 [debug] all callers are evicted for org.tukaani#xz;1.4: evicting too
@@ -10776,19 +10776,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 4404ms :: artifacts dl 58ms
-[debug] 	report for default#taller2-build;0.1-SNAPSHOT compile produced in /home/lili/Escritorio/proyecto3/taller2/project/target/resolution-cache/reports/default-taller2-build-compile.xml
-[debug] 	report for default#taller2-build;0.1-SNAPSHOT runtime produced in /home/lili/Escritorio/proyecto3/taller2/project/target/resolution-cache/reports/default-taller2-build-runtime.xml
-[debug] 	report for default#taller2-build;0.1-SNAPSHOT test produced in /home/lili/Escritorio/proyecto3/taller2/project/target/resolution-cache/reports/default-taller2-build-test.xml
-[debug] 	report for default#taller2-build;0.1-SNAPSHOT provided produced in /home/lili/Escritorio/proyecto3/taller2/project/target/resolution-cache/reports/default-taller2-build-provided.xml
-[debug] 	report for default#taller2-build;0.1-SNAPSHOT optional produced in /home/lili/Escritorio/proyecto3/taller2/project/target/resolution-cache/reports/default-taller2-build-optional.xml
-[debug] 	report for default#taller2-build;0.1-SNAPSHOT compile-internal produced in /home/lili/Escritorio/proyecto3/taller2/project/target/resolution-cache/reports/default-taller2-build-compile-internal.xml
-[debug] 	report for default#taller2-build;0.1-SNAPSHOT runtime-internal produced in /home/lili/Escritorio/proyecto3/taller2/project/target/resolution-cache/reports/default-taller2-build-runtime-internal.xml
-[debug] 	report for default#taller2-build;0.1-SNAPSHOT test-internal produced in /home/lili/Escritorio/proyecto3/taller2/project/target/resolution-cache/reports/default-taller2-build-test-internal.xml
-[debug] 	report for default#taller2-build;0.1-SNAPSHOT plugin produced in /home/lili/Escritorio/proyecto3/taller2/project/target/resolution-cache/reports/default-taller2-build-plugin.xml
-[debug] 	report for default#taller2-build;0.1-SNAPSHOT sources produced in /home/lili/Escritorio/proyecto3/taller2/project/target/resolution-cache/reports/default-taller2-build-sources.xml
-[debug] 	report for default#taller2-build;0.1-SNAPSHOT docs produced in /home/lili/Escritorio/proyecto3/taller2/project/target/resolution-cache/reports/default-taller2-build-docs.xml
-[debug] 	report for default#taller2-build;0.1-SNAPSHOT pom produced in /home/lili/Escritorio/proyecto3/taller2/project/target/resolution-cache/reports/default-taller2-build-pom.xml
-[debug] 	report for default#taller2-build;0.1-SNAPSHOT scala-tool produced in /home/lili/Escritorio/proyecto3/taller2/project/target/resolution-cache/reports/default-taller2-build-scala-tool.xml
-[debug] 	resolve done (4404ms resolve - 58ms download)
+[debug] :: resolution report :: resolve 5711ms :: artifacts dl 74ms
+[debug] 	report for default#autenticacion-build;0.1-SNAPSHOT compile produced in /home/lili/Escritorio/proyecto3/autenticacion/project/target/resolution-cache/reports/default-autenticacion-build-compile.xml
+[debug] 	report for default#autenticacion-build;0.1-SNAPSHOT runtime produced in /home/lili/Escritorio/proyecto3/autenticacion/project/target/resolution-cache/reports/default-autenticacion-build-runtime.xml
+[debug] 	report for default#autenticacion-build;0.1-SNAPSHOT test produced in /home/lili/Escritorio/proyecto3/autenticacion/project/target/resolution-cache/reports/default-autenticacion-build-test.xml
+[debug] 	report for default#autenticacion-build;0.1-SNAPSHOT provided produced in /home/lili/Escritorio/proyecto3/autenticacion/project/target/resolution-cache/reports/default-autenticacion-build-provided.xml
+[debug] 	report for default#autenticacion-build;0.1-SNAPSHOT optional produced in /home/lili/Escritorio/proyecto3/autenticacion/project/target/resolution-cache/reports/default-autenticacion-build-optional.xml
+[debug] 	report for default#autenticacion-build;0.1-SNAPSHOT compile-internal produced in /home/lili/Escritorio/proyecto3/autenticacion/project/target/resolution-cache/reports/default-autenticacion-build-compile-internal.xml
+[debug] 	report for default#autenticacion-build;0.1-SNAPSHOT runtime-internal produced in /home/lili/Escritorio/proyecto3/autenticacion/project/target/resolution-cache/reports/default-autenticacion-build-runtime-internal.xml
+[debug] 	report for default#autenticacion-build;0.1-SNAPSHOT test-internal produced in /home/lili/Escritorio/proyecto3/autenticacion/project/target/resolution-cache/reports/default-autenticacion-build-test-internal.xml
+[debug] 	report for default#autenticacion-build;0.1-SNAPSHOT plugin produced in /home/lili/Escritorio/proyecto3/autenticacion/project/target/resolution-cache/reports/default-autenticacion-build-plugin.xml
+[debug] 	report for default#autenticacion-build;0.1-SNAPSHOT sources produced in /home/lili/Escritorio/proyecto3/autenticacion/project/target/resolution-cache/reports/default-autenticacion-build-sources.xml
+[debug] 	report for default#autenticacion-build;0.1-SNAPSHOT docs produced in /home/lili/Escritorio/proyecto3/autenticacion/project/target/resolution-cache/reports/default-autenticacion-build-docs.xml
+[debug] 	report for default#autenticacion-build;0.1-SNAPSHOT pom produced in /home/lili/Escritorio/proyecto3/autenticacion/project/target/resolution-cache/reports/default-autenticacion-build-pom.xml
+[debug] 	report for default#autenticacion-build;0.1-SNAPSHOT scala-tool produced in /home/lili/Escritorio/proyecto3/autenticacion/project/target/resolution-cache/reports/default-autenticacion-build-scala-tool.xml
+[debug] 	resolve done (5711ms resolve - 74ms download)
 [info] Done updating.
