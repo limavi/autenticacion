@@ -1,0 +1,9 @@
+run 9008
+reload
+update
+compile
+run 9008
+reload
+update
+compile
+run 9008
