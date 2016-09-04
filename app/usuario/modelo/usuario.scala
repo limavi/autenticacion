@@ -13,6 +13,8 @@ case class Usuario(
     telefono:               String,
     contrasena:             String)
 
+case class infologinUsuario(userName:String, contrasena: String)
+
 class UsuarioTable(tag: Tag) extends Table[Usuario](tag, "usuario") {
   implicit val jdateColumnType = MappedColumnType.base[ DateTime, Timestamp ]( dt => new Timestamp( dt.getMillis ), ts => new DateTime( ts.getTime ) )
   def userName           = column[String]("userName")

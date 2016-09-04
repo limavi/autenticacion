@@ -7,8 +7,8 @@ import scala.concurrent.{ExecutionContext, Future}
 
 object usuariosAppServices {
 
-  def getUsuario(user:String, password:String): Future[Option[UsuarioApp]] = {
-    RepositoryUsuarioApp.consultarUsuario(user,password )
+  def getUsuario(userName:String, contrasena:String): Future[Option[UsuarioApp]] = {
+    RepositoryUsuarioApp.consultarUsuario(userName,contrasena )
   }
 
 }

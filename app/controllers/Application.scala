@@ -9,6 +9,8 @@ import play.api.libs.json._
 import play.api.libs.functional.syntax._
 import pdi.jwt._
 import play.twirl.api.Html
+import usuario.modelo.{Usuario, infologinUsuario}
+import usuario.servicios.usuarioServices
 import usuariosApp.services.usuariosAppServices
 
 import scala.concurrent.ExecutionContext.Implicits.global
@@ -64,27 +66,29 @@ class Application extends Controller with Secured {
     (JsPath \ "username").read[String] and
     (JsPath \ "password").read[String] tupled
 
-  def login2: Action[JsValue] = Action.async(parse.json) { implicit request =>{
-    println("login")
-    request.body.validate(loginForm).fold(
+  
+
+  implicit val infologinUsuarioFormat = Json.format[infologinUsuario]
+  implicit val UsuarioFormat = Json.format[Usuario]
+
+  def login = Action.async(parse.json) { implicit request =>
+    request.body.validate[infologinUsuario].fold(
       errors => {
+        println("error" + request.body.toString())
         Future(BadRequest(JsError.toJson(errors)))
       },
-      form => {
-        println("form ***")
-        usuariosAppServices.getUsuario(form._1, form._2) map( usuario =>{
-          println("usuario"+ usuario)
-            usuario match {
-              case Some(usu)=>
-                Ok.addingToJwtSession("user", User(form._1,usu.role))
-              case None=>Unauthorized
-            }
-        }
-          )
-      }
-    )
-    }
+      data => {
+        usuarioServices.getUsuario(data.userName, data.contrasena) map (usuario => {
+          println("usuario" + usuario)
+          usuario match {
+            case Some(usu) =>
+              Ok.addingToJwtSession("user", usu)
+            case None => Unauthorized
+          }
+        })
+    })
   }
+
 
   def consultarEpisodios(id: Option[ Long ]) = Action.async { implicit request =>
     val res =migranaServices.getEpisodios(id) map { episodio =>
