@@ -147,3 +147,5 @@ play.sbt.PlayExceptions$CompilationException: Compilation error[infologinUsuario
 2016-09-04 02:02:49,389 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-5 - Application started (Dev)
 2016-09-04 02:03:58,569 [WARN] from application in application-akka.actor.default-dispatcher-4 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
 2016-09-04 02:03:58,690 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-4 - Application started (Dev)
+2016-09-04 02:25:11,963 [WARN] from application in application-akka.actor.default-dispatcher-3 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2016-09-04 02:25:12,110 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-3 - Application started (Dev)

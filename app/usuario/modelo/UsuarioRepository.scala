@@ -9,9 +9,8 @@ import play.api.libs.json.{Json, Writes}
 import scala.concurrent.{ExecutionContext, Future}
 import slick.driver.JdbcProfile
 import slick.driver.MySQLDriver.api._
-import usuariosApp.modelo.{UsuarioApp, UsuarioAppTable}
 
-object RepositoryUsuario {
+object UsuarioRepository {
   val dbConfig = DatabaseConfigProvider.get[JdbcProfile](Play.current)
   val UsuarioTableQuery = TableQuery[UsuarioTable]
 

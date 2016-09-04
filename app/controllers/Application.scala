@@ -11,7 +11,6 @@ import pdi.jwt._
 import play.twirl.api.Html
 import usuario.modelo.{Usuario, infologinUsuario}
 import usuario.servicios.usuarioServices
-import usuariosApp.services.usuariosAppServices
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -66,7 +65,7 @@ class Application extends Controller with Secured {
     (JsPath \ "username").read[String] and
     (JsPath \ "password").read[String] tupled
 
-  
+
 
   implicit val infologinUsuarioFormat = Json.format[infologinUsuario]
   implicit val UsuarioFormat = Json.format[Usuario]
