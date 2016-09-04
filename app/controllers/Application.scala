@@ -4,14 +4,12 @@ import autenticacion.models.User
 import autenticacion.{AnalistaTramitesAction, MedicoAction, PacienteAction, Secured}
 import migrana.modelo.{Episodio, Paciente, Repository}
 import migrana.services.migranaServices
-import tramite.services.tramiteServices
 import play.api.mvc._
 import play.api.libs.json._
 import play.api.libs.functional.syntax._
 import pdi.jwt._
 import play.twirl.api.Html
 import usuariosApp.services.usuariosAppServices
-import tramite.modelo._
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future

@@ -19,10 +19,9 @@ class UsuarioTable(tag: Tag) extends Table[Usuario](tag, "usuario") {
   def tipoDocumento      = column[String]("tipoDocumento")
   def numDocumento       = column[Long]  ("numDocumento")
   def fechaNacimiento    = column[DateTime]("fechaNacimiento")
-  def correoElectronico  = column[DateTime]("correoElectronico")
+  def correoElectronico  = column[String]("correoElectronico")
   def telefono           = column[String]("telefono")
   def contrasena         = column[String]("contrasena")
-,
-  override def * = (userName, tipoDocumento , numDocumento,fechaNacimiento,correoElectronico,
-    telefono,contrasena) <>(Usuario.tupled, Usuario.unapply _)
+
+  override def * = (userName, tipoDocumento , numDocumento,fechaNacimiento,correoElectronico,telefono,contrasena) <>(Usuario.tupled, Usuario.unapply _)
 }
