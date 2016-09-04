@@ -5,6 +5,7 @@
 # Home page
 GET     /                           controllers.Application.index
 
+POST    /api/login                  controllers.Application.login2
 POST    /api/login                  controllers.Application.login
 GET     /api/consultaDePacientes    controllers.Application.consultaDePacientes
 GET     /api/consultaDeEpisodios    controllers.Application.consultaDeEpisodios

@@ -22,11 +22,6 @@ class Application extends Controller with Secured {
   implicit val episodioFormat = Json.format[Episodio]
   implicit val pacienteFormat = Json.format[Paciente]
 
-  implicit val atributoFormat = Json.format[atributo]
-  implicit val campoFormat = Json.format[campo]
-  implicit val PasoFormat = Json.format[Paso]
-  implicit val TramiteFormat = Json.format[Tramite]
-
   val listaContraseñasPosibles = Seq("red", "blue", "green")  //lili
 
   def index = Action {
@@ -48,21 +43,6 @@ class Application extends Controller with Secured {
   def agregarTramite = AnalistaTramitesAction {
     Ok(views.html.agregarUnTramite())
   }
-
-  def generarHtmlTramite(ConfTramite:String) = Action { request =>
-    Try(Json.parse(ConfTramite)) match {
-      case Success(jsonTramite)=>{
-        jsonTramite.validate[Tramite].asOpt match {
-          case Some(tramite)=>
-            val htmlTramite=tramiteServices.crearHtmlDelTramite(tramite)
-            Ok(htmlTramite)
-          case None=> Ok("El Json no corresponde a un tramite")
-        }
-      }
-      case _ =>Ok("El Json tiene errores")
-    }
-  }
-
 
 
   def agregarEpisodio= Action.async { implicit request =>
@@ -86,7 +66,7 @@ class Application extends Controller with Secured {
     (JsPath \ "username").read[String] and
     (JsPath \ "password").read[String] tupled
 
-  def login: Action[JsValue] = Action.async(parse.json) { implicit request =>{
+  def login2: Action[JsValue] = Action.async(parse.json) { implicit request =>{
     println("login")
     request.body.validate(loginForm).fold(
       errors => {
