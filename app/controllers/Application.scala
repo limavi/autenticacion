@@ -9,7 +9,7 @@ import play.api.libs.json._
 import play.api.libs.functional.syntax._
 import pdi.jwt._
 import play.twirl.api.Html
-import usuario.modelos.{Roles, Repository, Usuario, infologinUsuario}
+import usuario.modelos._
 import usuario.servicios.usuarioServices
 
 import scala.concurrent.ExecutionContext.Implicits.global
@@ -31,6 +31,8 @@ class Application extends Controller with Secured {
   implicit val infologinUsuarioFormat = Json.format[infologinUsuario]
   implicit val UsuarioFormat = Json.format[Usuario]
   implicit val RoleFormat = Json.format[Roles]
+  implicit val UsuarioCompletoFormat = Json.format[UsuarioCompleto]
+
 
   def consultarRoles()= Action.async { implicit request =>
     val res= Repository.consultarRoles() map {rol => { Ok(Json.toJson( rol ))}}
@@ -45,7 +47,6 @@ class Application extends Controller with Secured {
       },
       data => {
         usuarioServices.getUsuario(data.userName, data.contrasena) map (usuario => {
-          println("usuario" + usuario)
           usuario match {
             case Some(usu) =>
               Ok.addingToJwtSession("user", usu)
