@@ -1,4 +1,4 @@
-package usuario.modelo
+package usuario.modelos
 
 import java.sql.Timestamp
 import org.joda.time.DateTime
@@ -14,6 +14,7 @@ case class Usuario(
     contrasena:             String)
 
 case class infologinUsuario(userName:String, contrasena: String)
+case class usuarioCompleto(usuario:Usuario, rolesUsuario:RolesUsuario)
 
 class UsuarioTable(tag: Tag) extends Table[Usuario](tag, "usuario") {
   implicit val jdateColumnType = MappedColumnType.base[ DateTime, Timestamp ]( dt => new Timestamp( dt.getMillis ), ts => new DateTime( ts.getTime ) )

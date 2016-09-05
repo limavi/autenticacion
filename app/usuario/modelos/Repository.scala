@@ -1,4 +1,4 @@
-package usuario.modelo
+package usuario.modelos
 
 import org.joda.time.{DateTime, LocalDate}
 import slick.lifted.TableQuery
@@ -10,7 +10,7 @@ import scala.concurrent.{ExecutionContext, Future}
 import slick.driver.JdbcProfile
 import slick.driver.MySQLDriver.api._
 
-object UsuarioRepository {
+object Repository {
   val dbConfig = DatabaseConfigProvider.get[JdbcProfile](Play.current)
   val UsuarioTableQuery = TableQuery[UsuarioTable]
 
