@@ -13,10 +13,15 @@ import slick.driver.MySQLDriver.api._
 object Repository {
   val dbConfig = DatabaseConfigProvider.get[JdbcProfile](Play.current)
   val UsuarioTableQuery = TableQuery[UsuarioTable]
+  val RolesUsuarioTableQuery = TableQuery[RolesUsuarioTable]
+  val RolesTableQuery = TableQuery[RolesTable]
 
-  def consultarUsuario(usr:String, password:String): Future[Option[Usuario]] = {
-    println(usr + " -  " + password)
-    val query: Query[UsuarioTable, Usuario, Seq] =UsuarioTableQuery.filter(us=> us.userName === usr && us.contrasena===password)
+  def validarUsuario(usr:String, password:String): Future[Option[Usuario]] = {
+    val query =UsuarioTableQuery.filter(us=> us.userName === usr && us.contrasena===password)
     dbConfig.db.run(query.result.headOption)
+  }
+
+  def consultarRoles(): Future[Seq[Roles]] = {
+    dbConfig.db.run(RolesTableQuery.result)
   }
 }

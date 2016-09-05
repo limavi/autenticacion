@@ -3,12 +3,12 @@ package usuario.modelos
 import slick.driver.MySQLDriver.api._
 
 case class Roles(
-    id:                     Long,
+    id:                     Option[String],
     nombre:                 String,
     descripcion :           String)
 
 class RolesTable(tag: Tag) extends Table[Roles](tag, "roles") {
-  def id                 = column[Long]("id")
+  def id                 = column[Option[String]]("id")
   def nombre             = column[String]("nombre")
   def descripcion        = column[String]  ("descripcion")
 
